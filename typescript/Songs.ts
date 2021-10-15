@@ -341,6 +341,8 @@ let allLsSongs: Array<string> = [
     "Oh No! by MARINA",
     "How You Like That by BLACKPINK",
     "Focus by Ariana Grande"
+    "Little Bad Girl by David Guetta ft. Taio Cruz & Ludacris"
+    "Here's Your Perfect by Jamie Miller"
 ]
 
 let lsSongs = [...allLsSongs];
