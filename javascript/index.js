@@ -2750,6 +2750,7 @@ var macarena = new Queen("The Macarena", 6, 7, 6, 5, 5, 7, 7, "Macarena");
 var dres = [arantxa, carmenf, dovima, drag, hugaceo, inti, killer, pupi, sagittaria, macarena];
 //SPECIAL
 var pangina = new Queen("Pangina Heals", 10, 10, 9, 12, 9, 13, 11);
+var virgo = new Queen ("Virgo The Scorpio", 12, 12, 10, 9, 12, 13, 12);
 var international_as = [baga, blu, cheryl, janey, jimbo, jujubee, lemon, monique, pangina];
 //all possible queens:
 var allQueens = [
@@ -2776,7 +2777,7 @@ var allQueens = [
     angele, bandit, genie, kana, kandyz, katy, m, maya, mocha, gimhuay, silver, srimala, tormai, vanda,
     anita, art, cocoj, elektra, etc, jojo, karen, kita, maxi,
     arantxa, carmenf, dovima, drag, hugaceo, inti, killer, pupi, sagittaria, macarena,
-    pangina
+    pangina, virgo
 ].sort(function (a, b) { return a.getName().toLowerCase().localeCompare(b.getName().toLowerCase()); });
 var allQueensCopy = [];
 function CheckForReturning() {
@@ -3230,6 +3231,8 @@ var allLsSongs = [
     "Oh No! by MARINA",
     "How You Like That by BLACKPINK",
     "Focus by Ariana Grande"
+    "Little Bad Girl by David Guetta ft. Taio Cruz & Ludacris"
+    "Here's Your Perfect by Jamie Miller"
 ];
 var lsSongs = __spreadArray([], allLsSongs, true);
 var __extends = (this && this.__extends) || (function () {
