@@ -468,7 +468,7 @@ let dres = [arantxa, carmenf, dovima, drag, hugaceo, inti, killer, pupi, sagitta
 //SPECIAL
 
 let pangina = new Queen("Pangina Heals", 10, 10, 9, 12, 9, 13, 11);
-let virgo = new Queen ("Virgo The Scorpio", 12, 12, 10, 9, 12, 13, 12)
+let virgo = new Queen ("Virgo The Scorpio", 12, 12, 10, 9, 12, 13, 12);
 
 let international_as = [baga, blu, cheryl, janey, jimbo, jujubee, lemon, monique, pangina];
 
