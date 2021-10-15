@@ -359,7 +359,7 @@ let river = new Queen("River Medway", 8, 8, 7, 5, 6, 5, 7, "River");
 let scarlett = new Queen("Scarlett Harlett", 8, 7, 8, 8, 5, 8, 8, "ScarlettH");
 let vanity = new Queen("Vanity Milan", 6, 9, 6, 8, 8, 7, 9, "Vanity");
 let victoriaS = new Queen("Victoria Scone", 10, 10, 8, 10, 9, 9, 8, "VictoriaS");
-let uk_season3 = [anubis, charity, choriza, elektraF, ella, kitty, krystal, river, scarlett, vanity, victoriaS];
+let uk_season3 = [anubis, charity, choriza, elektraF, ella, kitty, krystal, river, scarlett, vanity, veronica, victoriaS];
 
 //CAN SEASON 1
 let anastarzia = new Queen("Anastarzia Anaquway", 7, 7, 6, 10, 8, 9, 11, "Starzy");
@@ -468,6 +468,7 @@ let dres = [arantxa, carmenf, dovima, drag, hugaceo, inti, killer, pupi, sagitta
 //SPECIAL
 
 let pangina = new Queen("Pangina Heals", 10, 10, 9, 12, 9, 13, 11);
+let virgo = new Queen ("Virgo The Scorpio", 12, 12, 10, 9, 12, 13, 12)
 
 let international_as = [baga, blu, cheryl, janey, jimbo, jujubee, lemon, monique, pangina];
 
@@ -496,7 +497,7 @@ amadiva, annee, b, bunny, dearis, jaja, meannie, morrigan, natalia, petchra,
 angele, bandit, genie, kana, kandyz, katy, m, maya, mocha, gimhuay, silver, srimala, tormai, vanda,
 anita, art, cocoj, elektra, etc, jojo, karen, kita, maxi,
 arantxa, carmenf, dovima, drag, hugaceo, inti, killer, pupi, sagittaria, macarena,
-pangina
+pangina, virgo
 ].sort((a, b) => a.getName().toLowerCase().localeCompare(b.getName().toLowerCase()));
 
 let allQueensCopy: Array<Queen> = [];
